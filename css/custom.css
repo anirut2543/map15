@@ -457,6 +457,7 @@
    font-size: 40px;
    font-weight: bold;
    text-decoration: none;
+   visibility: hidden;
 }
 
 .cen{
@@ -465,4 +466,5 @@
    position: absolute;
    top: 50%;
    left: 20%;
+   visibility: hidden;
 }
