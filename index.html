@@ -37,7 +37,7 @@
     let openb3 = document.getElementById("opb3")
     let openb4 = document.getElementById("opb4")
     let openb5 = document.getElementById("opb5")
-
+    let derr = new Audio('drop.mp3');
     function openbut1(){
         openb1.classList.add("ob1");
     }
@@ -53,7 +53,7 @@
     function openbut5(){
         openb5.classList.add("ob5");
     }
-    const derr = new Audio('fes.mp3');
+    
     function playsong(){
         derr.play();
     }
@@ -87,7 +87,7 @@
     updateTimer();
 }
 
-countdown( "ten-countdown", 1, 0 );
+countdown( "ten-countdown", 0, 10 );
 
 </script>
 </body>
