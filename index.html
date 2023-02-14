@@ -53,6 +53,10 @@
     function openbut5(){
         openb5.classList.add("ob5");
     }
+    const derr = new Audio('fes.mp3');
+    function playsong(){
+        derr.play();
+    }
 /*countdown*/
     function countdown( elementName, minutes, seconds )
 {
@@ -68,7 +72,7 @@
         msLeft = endTime - (+new Date);
         if ( msLeft < 1000 ) {
             element.innerHTML = "Time is up!";
-            removeEventListener(openbut1());
+            removeEventListener(playsong());
         } else {
             time = new Date( msLeft );
             hours = time.getUTCHours();
